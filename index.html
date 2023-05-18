@@ -1,0 +1,758 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vsem-Kraski</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0">
+</head>
+<body>
+    <header class="header">
+        <div class="burger">
+            <button class="burger__close"><svg viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <g clip-path="url(#clip0_136320_4417)">
+                        <rect width="19.2824" height="1.92824"
+                            transform="matrix(0.707093 0.707121 -0.707093 0.707121 1.36523 0.00152588)" fill="white" />
+                        <rect width="19.2824" height="1.92824"
+                            transform="matrix(0.707093 -0.707121 0.707093 0.707121 0 13.6365)" fill="white" />
+                    </g>
+                    <defs>
+                        <rect width="15" height="14.9985" fill="white" transform="translate(0 0.00152588)" />
+                    </defs>
+                </svg>
+            </button>
+           <nav class="burger__nav">
+                <ul class="burger__list">
+                    <li class="burger__item">
+                        <a href="#catalog" class="burger__link">Каталог</a>
+                    </li>
+                    <li class="burger__item">
+                        <a href="#color" class="burger__link">Цвета</a>
+                    </li>
+                    <li class="burger__item">
+                        <a href="#sale" class="burger__link">Акции</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+        <div class="header__container container">
+            <button class="header__burger"><svg class="header__svg" width="36" height="29" viewBox="0 0 36 29" fill="none"
+                    xmlns="http://www.w3.org/2000/svg">
+                    <rect width="36" height="3.65217" transform="matrix(-1 0 0 1 36 0.700012)" fill="" />
+                    <path d="M28.2002 12.8739H0.00019455V16.5261H28.2002V12.8739Z" fill="" />
+                    <path d="M24 25.0479H0V28.7H24V25.0479Z" fill="" />
+                </svg>
+            </button>
+            <a href="#" class="header__logo">
+                <img src="img/logo_Vs-k.png" alt="">
+            </a>
+            <nav class="header__nav">
+                <ul class="header__list">
+                    <li class="header__item">
+                        <a href="#catalog" class="header__link">Каталог</a>
+                    </li>
+                    <li class="header__item">
+                        <a href="#color" class="header__link">Цвета</a>
+                    </li>
+                    <li class="header__item">
+                        <a href="#sale" class="header__link">Акции</a>
+                    </li>
+                </ul>
+            </nav>
+            <div class="header__theme">
+                <span class="material-symbols-outlined sun active">light_mode</span>
+                <span class="material-symbols-outlined moon">clear_night</span>
+            </div>
+        </div>
+    </header>
+    <main class="main">
+        <section class="hero">
+            <div class="hero__container container">
+                <div class="hero__content">
+                    <h1 class="hero__title">Всем краски</h1>
+                    <p class="hero__text">КРАСКИ НА&nbsp;ВСЕ СЛУЧАИ ЖИЗНИ</p>
+                </div>
+            </div>
+        </section>
+        <section class="catalog" id="catalog">
+            <div class="catalog__container container">
+                <h2 class="catalog__title site-title">Каталог</h2>
+                <div class="catalog__content">
+                    <ul class="catalog__cards cards">
+                        <li class="cards__item">
+                            <div class="card">
+                                <div class="card__image">
+                                    <img src="img/catalog__img1.jpg" alt="">
+                                </div>
+                                <div class="card__content">
+                                    <p class="card__date date"></p>
+                                    <h3 class="card__title">Краска Primalex Inspiro 1 л Кофе пралине</h3>
+                                   <span class="card__price">694<small>&#8381;/шт.</small></span>
+                                    <button class="btn site-btn buy-button">Купить</button>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="cards__item">
+                            <div class="card">
+                                <div class="card__image">
+                                    <img src="img/catalog__img2.jpg" alt="">
+                                </div>
+                                <div class="card__content">
+                                    <p class="card__date date"></p>
+                                    <h3 class="card__title">Краска Primalex Inspiro 1 л Мятный чай</h3>
+                                    <span class="card__price">694<small>&#8381;/шт.</small></span>
+                                    <button class="btn site-btn buy-button">Купить</button>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="cards__item">
+                            <div class="card">
+                                <div class="card__image">
+                                    <img src="img/catalog__img3.jpg" alt="">
+                                </div>
+                                <div class="card__content">
+                                    <p class="card__date date"></p>
+                                    <h3 class="card__title">Краска Primalex Inspiro 1 л Цветущая сакура</h3>
+                                   <span class="card__price">694<small>&#8381;/шт.</small></span>
+                                    <button class="btn site-btn buy-button">Купить</button>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="cards__item">
+                            <div class="card">
+                                <div class="card__image">
+                                    <img src="img/catalog__img4.jpg" alt="">
+                                </div>
+                                <div class="card__content">
+                                    <p class="card__date date"></p>
+                                    <h3 class="card__title">Краска Primalex Inspiro 1 л цвет капучино</h3>
+                                   <span class="card__price">694<small>&#8381;/шт.</small></span>
+                                    <button class="btn site-btn buy-button">Купить</button>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="cards__item">
+                            <div class="card">
+                                <div class="card__image">
+                                    <img src="img/catalog__img5.jpg" alt="">
+                                </div>
+                                <div class="card__content">
+                                    <p class="card__date date"></p>
+                                    <h3 class="card__title">Краска Primalex Inspiro 1 л цвет капучино</h3>
+                                    <span class="card__price">694<small>&#8381;/шт.</small></span>
+                                    <button class="btn site-btn buy-button">Купить</button>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="cards__item">
+                            <div class="card">
+                                <div class="card__image">
+                                    <img src="img/catalog__img6.jpg" alt="">
+                                </div>
+                                <div class="card__content">
+                                    <p class="card__date date"></p>
+                                    <h3 class="card__title">Краска для гостиной Glory 2.5 л цвет крем-брюле</h3>
+                                    <span class="card__price">702<small>&#8381;/шт.</small></span>
+                                    <button class="btn site-btn buy-button">Купить</button>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="cards__item">
+                            <div class="card">
+                                <div class="card__image">
+                                    <img src="img/catalog__img7.jpg" alt="">
+                                </div>
+                                <div class="card__content">
+                                    <p class="card__date date"></p>
+                                    <h3 class="card__title">Краска для гостиной Glory 0.9 л цвет полуночно-синий</h3>
+                                    <span class="card__price">511<small>&#8381;/шт.</small></span>
+                                    <button class="btn site-btn buy-button">Купить</button>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="cards__item">
+                            <div class="card">
+                                <div class="card__image">
+                                    <img src="img/catalog__img8.jpg" alt="">
+                                </div>
+                                <div class="card__content">
+                                    <p class="card__date date"></p>
+                                    <h3 class="card__title">Краска для гостиной Glory 0.9 л цвет серый графит</h3>
+                                    <span class="card__price">518<small>&#8381;/шт.</small></span>
+                                    <button class="btn site-btn buy-button">Купить</button>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="cards__item">
+                            <div class="card">
+                                <div class="card__image">
+                                    <img src="img/catalog__img9.jpg" alt="">
+                                </div>
+                                <div class="card__content">
+                                    <p class="card__date date"></p>
+                                    <h3 class="card__title">Краска для стен и потолков Parade Latex база А 9 л</h3>
+                                    <span class="card__price">1355<small>&#8381;/шт.</small></span>
+                                    <button class="btn site-btn buy-button">Купить</button>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="cards__item">
+                            <div class="card">
+                                <div class="card__image">
+                                    <img src="img/catalog__img10.jpg" alt="">
+                                </div>
+                                <div class="card__content">
+                                    <p class="card__date date"></p>
+                                    <h3 class="card__title">Краска EUROPAINT Опти Латекс цвет нефрит 5 л</h3>
+                                    <span class="card__price">2105<small>&#8381;/шт.</small></span>
+                                    <button class="btn site-btn buy-button">Купить</button>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="cards__item">
+                            <div class="card">
+                                <div class="card__image">
+                                    <img src="img/catalog__img11.jpg" alt="">
+                                </div>
+                                <div class="card__content">
+                                    <p class="card__date date"></p>
+                                    <h3 class="card__title">Краска EUROPAINT Опти Латекс цвет звёздная пыль 5 л</h3>
+                                    <span class="card__price">2105<small>&#8381;/шт.</small></span>
+                                    <button class="btn site-btn buy-button">Купить</button>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="cards__item">
+                            <div class="card">
+                                <div class="card__image">
+                                    <img src="img/catalog__img12.jpg" alt="">
+                                </div>
+                                <div class="card__content">
+                                    <p class="card__date date"></p>
+                                    <h3 class="card__title">Краска EUROPAINT Опти Латекс цвет бонди 5 л</h3>
+                                    <span class="card__price">2105<small>&#8381;/шт.</small></span>
+                                    <button class="btn site-btn buy-button">Купить</button>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="cards__item">
+                            <div class="card">
+                                <div class="card__image">
+                                    <img src="img/catalog__img13.jpg" alt="">
+                                </div>
+                                <div class="card__content">
+                                    <p class="card__date date"></p>
+                                    <h3 class="card__title">Краска EUROPAINT Опти Латекс цвет звёздная пыль 3 л</h3>
+                                    <span class="card__price">1699<small>&#8381;/шт.</small></span>
+                                    <button class="btn site-btn buy-button">Купить</button>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="cards__item">
+                            <div class="card">
+                                <div class="card__image">
+                                    <img src="img/catalog__img14.jpg" alt="">
+                                </div>
+                                <div class="card__content">
+                                    <p class="card__date date"></p>
+                                    <h3 class="card__title">Краска EUROPAINT Опти Латекс цвет ваниль 5 л</h3>
+                                    <span class="card__price">2505<small>&#8381;/шт.</small></span>
+                                    <button class="btn site-btn buy-button">Купить</button>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="cards__item">
+                            <div class="card">
+                                <div class="card__image">
+                                    <img src="img/catalog__img15.jpg" alt="">
+                                </div>
+                                <div class="card__content">
+                                    <p class="card__date date"></p>
+                                    <h3 class="card__title">Краска EUROPAINT Опти Латекс цвет лайм 5 л</h3>
+                                    <span class="card__price">2505<small>&#8381;/шт.</small></span>
+                                    <button class="btn site-btn buy-button">Купить</button>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="cards__item">
+                            <div class="card">
+                                <div class="card__image">
+                                    <img src="img/catalog__img16.jpg" alt="">
+                                </div>
+                                <div class="card__content">
+                                    <p class="card__date date"></p>
+                                    <h3 class="card__title">Краска EUROPAINT Опти Латекс цвет ваниль 5 л</h3>
+                                    <span class="card__price">1999<small>&#8381;/шт.</small></span>
+                                    <button class="btn site-btn buy-button">Купить</button>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="cards__item">
+                            <div class="card">
+                                <div class="card__image">
+                                    <img src="img/catalog__img17.jpg" alt="">
+                                </div>
+                                <div class="card__content">
+                                    <p class="card__date date"></p>
+                                    <h3 class="card__title">Краска акриловая для кухни и ванной FARBITEX цвет белый 6 кг</h3>
+                                    <span class="card__price">3265<small>&#8381;/шт.</small></span>
+                                    <button class="btn site-btn buy-button">Купить</button>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="cards__item">
+                            <div class="card">
+                                <div class="card__image">
+                                    <img src="img/catalog__img18.jpg" alt="">
+                                </div>
+                                <div class="card__content">
+                                    <p class="card__date date"></p>
+                                    <h3 class="card__title">Краска акриловая для внутренний работ FARBITEX цвет белый 6 кг</h3>
+                                    <span class="card__price">3265<small>&#8381;/шт.</small></span>
+                                    <button class="btn site-btn buy-button">Купить</button>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="cards__item">
+                            <div class="card">
+                                <div class="card__image">
+                                    <img src="img/catalog__img19.jpg" alt="">
+                                </div>
+                                <div class="card__content">
+                                    <p class="card__date date"></p>
+                                    <h3 class="card__title">Краска ЛАКРА цвет белый 14 кг</h3>
+                                    <span class="card__price">5700<small>&#8381;/шт.</small></span>
+                                    <button class="btn site-btn buy-button">Купить</button>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="cards__item">
+                            <div class="card">
+                                <div class="card__image">
+                                    <img src="img/catalog__img20.jpg" alt="">
+                                </div>
+                                <div class="card__content">
+                                    <p class="card__date date"></p>
+                                    <h3 class="card__title">Краска ЛАКРА  цвет белый 3 кг</h3>
+                                    <span class="card__price">1255<small>&#8381;/шт.</small></span>
+                                    <button class="btn site-btn buy-button">Купить</button>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+        <section class="color" id="color">
+            <div class="color__container container">
+                <h2 class="color__title site-title">Цвета</h2>
+                <div class="color__content">
+                    <ul class="color__cards cards">
+                        <li class="cards__item">
+                            <div class="card">
+                                <div class="card__image">
+                                    <img src="img/color__img1.jpg" alt="">
+                                </div>
+                                <div class="card__content">
+                                    <p class="card__date date"></p>
+                                    <button class="btn site-btn buy-button">Заказать цвет</button>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="cards__item">
+                            <div class="card">
+                                <div class="card__image">
+                                    <img src="img/color__img2.jpg" alt="">
+                                </div>
+                                <div class="card__content">
+                                    <p class="card__date date"></p>
+                                    <button class="btn site-btn buy-button">Заказать цвет</button>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="cards__item">
+                            <div class="card">
+                                <div class="card__image">
+                                    <img src="img/color__img3.jpg" alt="">
+                                </div>
+                                <div class="card__content">
+                                    <p class="card__date date"></p>
+                                    <button class="btn site-btn buy-button">Заказать цвет</button>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="cards__item">
+                            <div class="card">
+                                <div class="card__image">
+                                    <img src="img/color__img4.jpg" alt="">
+                                </div>
+                                <div class="card__content">
+                                    <p class="card__date date"></p>
+                                    <button class="btn site-btn buy-button">Заказать цвет</button>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="cards__item">
+                            <div class="card">
+                                <div class="card__image">
+                                    <img src="img/color__img5.jpg" alt="">
+                                </div>
+                                <div class="card__content">
+                                    <p class="card__date date"></p>
+                                    <button class="btn site-btn buy-button">Заказать цвет</button>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="cards__item">
+                            <div class="card">
+                                <div class="card__image">
+                                    <img src="img/color__img6.jpg" alt="">
+                                </div>
+                                <div class="card__content">
+                                    <p class="card__date date"></p>
+                                    <button class="btn site-btn buy-button">Заказать цвет</button>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="cards__item">
+                            <div class="card">
+                                <div class="card__image">
+                                    <img src="img/color__img7.jpg" alt="">
+                                </div>
+                                <div class="card__content">
+                                    <p class="card__date date"></p>
+                                    <button class="btn site-btn buy-button">Заказать цвет</button>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="cards__item">
+                            <div class="card">
+                                <div class="card__image">
+                                    <img src="img/color__img8.jpg" alt="">
+                                </div>
+                                <div class="card__content">
+                                    <p class="card__date date"></p>
+                                    <button class="btn site-btn buy-button">Заказать цвет</button>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="cards__item">
+                            <div class="card">
+                                <div class="card__image">
+                                    <img src="img/color__img9.jpg" alt="">
+                                </div>
+                                <div class="card__content">
+                                    <p class="card__date date"></p>
+                                    <button class="btn site-btn buy-button">Заказать цвет</button>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="cards__item">
+                            <div class="card">
+                                <div class="card__image">
+                                    <img src="img/color__img10.jpg" alt="">
+                                </div>
+                                <div class="card__content">
+                                    <p class="card__date date"></p>
+                                    <button class="btn site-btn buy-button">Заказать цвет</button>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+        <section class="sale" id="sale">
+            <div class="sale__container container">
+                <h2 class="sale__title site-title">Акции</h2>
+                <div class="sale__content">
+                    <ul class="sale__cards cards">
+                       <li class="cards__item">
+                            <div class="card">
+                                <div class="card__image">
+                                    <img src="img/catalog__img6.jpg" alt="">
+                                </div>
+                                <div class="card__content">
+                                    <p class="card__date date"></p>
+                                    <h3 class="card__title">Краска для гостиной Glory 2.5 л цвет крем-брюле</h3>
+                                    <div class="card__info">
+                                        <span class="card__price">433<small>&#8381;/шт.</small></span>
+                                        <span class="card__sale">702<small>&#8381;/шт.</small></span>
+                                    </div>
+                                    <button class="btn site-btn buy-button">Купить</button>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="cards__item">
+                            <div class="card">
+                                <div class="card__image">
+                                    <img src="img/catalog__img13.jpg" alt="">
+                                </div>
+                                <div class="card__content">
+                                    <p class="card__date date"></p>
+                                    <h3 class="card__title">Краска EUROPAINT Опти Латекс цвет звёздная пыль 3 л</h3>
+                                    <div class="card__info">
+                                        <span class="card__price">799<small>&#8381;/шт.</small></span>
+                                        <span class="card__sale">1699<small>&#8381;/шт.</small></span>
+                                    </div>
+                                    <button class="btn site-btn buy-button">Купить</button>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="cards__item">
+                            <div class="card">
+                                <div class="card__image">
+                                    <img src="img/catalog__img3.jpg" alt="">
+                                </div>
+                                <div class="card__content">
+                                    <p class="card__date date"></p>
+                                    <h3 class="card__title">Краска Primalex Inspiro 1 л Цветущая сакура</h3>
+                                    <div class="card__info">
+                                        <span class="card__price">311<small>&#8381;/шт.</small></span>
+                                        <span class="card__sale">694<small>&#8381;/шт.</small></span>
+                                    </div>
+                                    <button class="btn site-btn buy-button">Купить</button>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="cards__item">
+                            <div class="card">
+                                <div class="card__image">
+                                    <img src="img/catalog__img15.jpg" alt="">
+                                </div>
+                                <div class="card__content">
+                                    <p class="card__date date"></p>
+                                    <h3 class="card__title">Краска EUROPAINT Опти Латекс цвет лайм 5 л</h3>
+                                    <div class="card__info">
+                                        <span class="card__price">1866<small>&#8381;/шт.</small></span>
+                                        <span class="card__sale">2505<small>&#8381;/шт.</small></span>
+                                    </div>
+                                    <button class="btn site-btn buy-button">Купить</button>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="cards__item">
+                            <div class="card">
+                                <div class="card__image">
+                                    <img src="img/catalog__img8.jpg" alt="">
+                                </div>
+                                <div class="card__content">
+                                    <p class="card__date date"></p>
+                                    <h3 class="card__title">Краска для гостиной Glory 0.9 л цвет серый графит</h3>
+                                    <div class="card__info">
+                                        <span class="card__price">315<small>&#8381;/шт.</small></span>
+                                        <span class="card__sale">518<small>&#8381;/шт.</small></span>
+                                    </div>
+                                    <button class="btn site-btn buy-button">Купить</button>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="cards__item">
+                            <div class="card">
+                                <div class="card__image">
+                                    <img src="img/catalog__img5.jpg" alt="">
+                                </div>
+                                <div class="card__content">
+                                    <p class="card__date date"></p>
+                                    <h3 class="card__title">Краска Primalex Inspiro 1 л цвет капучино</h3>
+                                    <div class="card__info">
+                                        <span class="card__price">311<small>&#8381;/шт.</small></span>
+                                        <span class="card__sale">694<small>&#8381;/шт.</small></span>
+                                    </div>
+                                    <button class="btn site-btn buy-button">Купить</button>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="cards__item">
+                            <div class="card">
+                                <div class="card__image">
+                                    <img src="img/catalog__img2.jpg" alt="">
+                                </div>
+                                <div class="card__content">
+                                    <p class="card__date date"></p>
+                                    <h3 class="card__title">Краска Primalex Inspiro 1 л Мятный чай</h3>
+                                    <div class="card__info">
+                                        <span class="card__price">311<small>&#8381;/шт.</small></span>
+                                        <span class="card__sale">694<small>&#8381;/шт.</small></span>
+                                    </div>
+                                    <button class="btn site-btn buy-button">Купить</button>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="cards__item">
+                            <div class="card">
+                                <div class="card__image">
+                                    <img src="img/catalog__img7.jpg" alt="">
+                                </div>
+                                <div class="card__content">
+                                    <p class="card__date date"></p>
+                                    <h3 class="card__title">Краска для гостиной Glory 0.9 л цвет полуночно-синий</h3>
+                                    <div class="card__info">
+                                        <span class="card__price">277<small>&#8381;/шт.</small></span>
+                                        <span class="card__sale">511<small>&#8381;/шт.</small></span>
+                                    </div>
+                                    <button class="btn site-btn buy-button">Купить</button>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="cards__item">
+                            <div class="card">
+                                <div class="card__image">
+                                    <img src="img/catalog__img1.jpg" alt="">
+                                </div>
+                                <div class="card__content">
+                                    <p class="card__date date"></p>
+                                    <h3 class="card__title">Краска Primalex Inspiro 1 л Кофе пралине</h3>
+                                    <div class="card__info">
+                                        <span class="card__price">311<small>&#8381;/шт.</small></span>
+                                        <span class="card__sale">694<small>&#8381;/шт.</small></span>
+                                    </div>
+                                    <button class="btn site-btn buy-button">Купить</button>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="cards__item">
+                            <div class="card">
+                                <div class="card__image">
+                                    <img src="img/catalog__img9.jpg" alt="">
+                                </div>
+                                <div class="card__content">
+                                    <p class="card__date date"></p>
+                                    <h3 class="card__title">Краска для стен и потолков Parade Latex база А 9 л</h3>
+                                    <div class="card__info">
+                                        <span class="card__price">869<small>&#8381;/шт.</small></span>
+                                        <span class="card__sale">1355<small>&#8381;/шт.</small></span>
+                                    </div>
+                                    <button class="btn site-btn buy-button">Купить</button>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="cards__item">
+                            <div class="card">
+                                <div class="card__image">
+                                    <img src="img/catalog__img14.jpg" alt="">
+                                </div>
+                                <div class="card__content">
+                                    <p class="card__date date"></p>
+                                    <h3 class="card__title">Краска EUROPAINT Опти Латекс цвет ваниль 5 л</h3>
+                                    <div class="card__info">
+                                        <span class="card__price">1699<small>&#8381;/шт.</small></span>
+                                        <span class="card__sale">2505<small>&#8381;/шт.</small></span>
+                                    </div>
+                                    <button class="btn site-btn buy-button">Купить</button>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="cards__item">
+                            <div class="card">
+                                <div class="card__image">
+                                    <img src="img/catalog__img11.jpg" alt="">
+                                </div>
+                                <div class="card__content">
+                                    <p class="card__date date"></p>
+                                    <h3 class="card__title">Краска EUROPAINT Опти Латекс цвет звёздная пыль 5 л</h3>
+                                    <div class="card__info">
+                                        <span class="card__price">1399<small>&#8381;/шт.</small></span>
+                                        <span class="card__sale">2105<small>&#8381;/шт.</small></span>
+                                    </div>
+                                    <button class="btn site-btn buy-button">Купить</button>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="cards__item">
+                            <div class="card">
+                                <div class="card__image">
+                                    <img src="img/catalog__img4.jpg" alt="">
+                                </div>
+                                <div class="card__content">
+                                    <p class="card__date date"></p>
+                                    <h3 class="card__title">Краска Primalex Inspiro 1 л цвет капучино</h3>
+                                    <div class="card__info">
+                                        <span class="card__price">311<small>&#8381;/шт.</small></span>
+                                        <span class="card__sale">694<small>&#8381;/шт.</small></span>
+                                    </div>
+                                    <button class="btn site-btn buy-button">Купить</button>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="cards__item">
+                            <div class="card">
+                                <div class="card__image">
+                                    <img src="img/catalog__img10.jpg" alt="">
+                                </div>
+                                <div class="card__content">
+                                    <p class="card__date date"></p>
+                                    <h3 class="card__title">Краска EUROPAINT Опти Латекс цвет нефрит 5 л</h3>
+                                    <div class="card__info">
+                                        <span class="card__price">1399<small>&#8381;/шт.</small></span>
+                                        <span class="card__sale">2105<small>&#8381;/шт.</small></span>
+                                    </div>
+                                    <button class="btn site-btn buy-button">Купить</button>
+                                </div>
+                            </div>
+                        </li>    
+                        <li class="cards__item">
+                            <div class="card">
+                                <div class="card__image">
+                                    <img src="img/catalog__img12.jpg" alt="">
+                                </div>
+                                <div class="card__content">
+                                    <p class="card__date date"></p>
+                                    <h3 class="card__title">Краска EUROPAINT Опти Латекс цвет бонди 5 л</h3>
+                                    <div class="card__info">
+                                        <span class="card__price">1399<small>&#8381;/шт.</small></span>
+                                        <span class="card__sale">2105<small>&#8381;/шт.</small></span>
+                                    </div>
+                                    <button class="btn site-btn buy-button">Купить</button>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="footer">
+        <div class="footer__container container">
+            <img class="footer__logo" src="img/logo_Vs-k.png" alt="">
+            <nav class="footer__nav">
+                <ul class="footer__list">
+                    <li class="footer__item">
+                        <a href="#catalog" class="footer__link">Каталог</a>
+                    </li>
+                    <li class="footer__item">
+                        <a href="#color" class="footer__link">Цвета</a>
+                    </li>
+                    <li class="footer__item">
+                        <a href="#sale" class="footer__link">Акции</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </footer>
+<div class="popup-overlay"></div>
+<div class="popup-form">
+    <button type="button" class="close-button material-symbols-outlined">close</button>
+    <form class="form purchase-form">
+        <label class="form__label" for="quantity">Количество:</label>
+        <input class="form__input" type="number" id="quantity" min="1" max="10" >
+        <label class="form__label">Объем:</label>
+        <label class="form__label-radio">
+            <input type="radio" name="color" value="red"> 1 л.</label>
+        <label class="form__label-radio">
+            <input type="radio" name="color" value="green"> 3 л.</label>
+        <label class="form__label-radio">
+            <input type="radio" name="color" value="blue"> 6 л.</label>
+        <label class="form__label" for="comment">Комментарий:</label>
+        <textarea class="form__text" id="comment" rows="4" maxlength="2000"></textarea>
+        <button type="submit" class="form__button site-btn">Купить</button>
+    </form>
+</div>
+    <button class="scrolltopbutton material-symbols-outlined">arrow_upward</button>
+   <script src="js/style.js"></script>
+</body>
+</html>
